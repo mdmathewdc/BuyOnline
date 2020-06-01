@@ -1,0 +1,107 @@
+
+<html>
+<head>
+
+
+
+	<script type="text/javascript" src="mlogin.js"></script>
+	<title> Store Manager Login </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style type="text/css">
+
+.heading{
+    text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	visibility:hidden;
+	
+}
+
+.heading1{
+    text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	visibility:visible;
+	
+}
+
+
+
+.return {
+  text-align: center;
+      display: inline;
+	  
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.yeah {
+    margin: 0 auto;
+    display: block;
+}
+
+.boxed {
+    text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+  border: 2px solid black ;
+      width:300px;
+	  height:190px;
+	    padding: 20px;
+
+
+}
+
+#listing{
+
+      display: inline;
+  position: absolute;
+  left: 665px;
+  top: 145px;
+
+
+
+}
+
+ </style>
+</head>
+
+<body onload="checkManagerLogin()">
+<br>
+<div id = "heading" class="heading">
+<div id = "logout"> </div>
+
+	<h1 id = "description">Store Manager Login</h1> <br>
+	
+<div class="boxed">
+		<div id = "listing"></div>
+
+
+	<table style="margin-left:auto;margin-right:auto" id = "table">
+			<tbody><tr>
+				<td><label for="managerid">Manager ID: </label></td>
+				<td><input type="text" name="managerid" id="managerid"></td>				
+			</tr>
+			<tr>
+				<td><label for="password">Password: </label></td>
+				<td><input type="text" name="password" id="password"></td>
+			</tr>
+			
+		</tbody></table>
+
+<br>		
+<button class="btn btn-primary yeah" onclick="validateManager()" id="loginbutton">Login</button>
+	</div>
+	
+		
+<div class = "return">
+
+<br>
+<p id="msg1"> </p>
+<p id="msg2"> </p>
+</div>
+
+
+</body>
+</html>

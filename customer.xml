@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<customers>
+  <customer>
+    <customerid>5ec95640d0ee6</customerid>
+    <email>adam@gmail.com</email>
+    <firstname>Adam</firstname>
+    <lastname>Cruise</lastname>
+    <password>123</password>
+    <phonenumber>09 45237840</phonenumber>
+  </customer>
+  <customer>
+    <customerid>5ec9566946844</customerid>
+    <email>boney@gmail.com</email>
+    <firstname>Boney</firstname>
+    <lastname>Joseph</lastname>
+    <password>123</password>
+  </customer>
+  <customer>
+    <customerid>5ec956933b8eb</customerid>
+    <email>candy@yahoo.com</email>
+    <firstname>Candy</firstname>
+    <lastname>Fisher</lastname>
+    <password>234</password>
+    <phonenumber>(09)89453748</phonenumber>
+  </customer>
+  <customer>
+    <customerid>5ec956b4a8cd7</customerid>
+    <email>daniel@yahoo.com</email>
+    <firstname>Daniel</firstname>
+    <lastname>Thomas</lastname>
+    <password>678</password>
+  </customer>
+  <customer>
+    <customerid>5ec986e12530e</customerid>
+    <email>testemail</email>
+    <firstname>testname</firstname>
+    <lastname>testlastname</lastname>
+    <password>123</password>
+    <phonenumber>09 89786756</phonenumber>
+  </customer>
+</customers>

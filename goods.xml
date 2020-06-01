@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<goods>
+  <item>
+    <itemnumber>5ec95ae40faec</itemnumber>
+    <quantityonhold>0</quantityonhold>
+    <quantitysold>0</quantitysold>
+    <itemname>S10e</itemname>
+    <itemprice>200</itemprice>
+    <itemquantity>30</itemquantity>
+    <itemdescription>Android Phone</itemdescription>
+  </item>
+  <item>
+    <itemnumber>5ec95b2bb19eb</itemnumber>
+    <quantityonhold>0</quantityonhold>
+    <quantitysold>0</quantitysold>
+    <itemname>6S Plus</itemname>
+    <itemprice>400</itemprice>
+    <itemquantity>25</itemquantity>
+    <itemdescription>Apple iPhone New Version</itemdescription>
+  </item>
+  <item>
+    <itemnumber>5ec95b4427fdd</itemnumber>
+    <quantityonhold>0</quantityonhold>
+    <quantitysold>0</quantitysold>
+    <itemname>Asics</itemname>
+    <itemprice>120</itemprice>
+    <itemquantity>900</itemquantity>
+    <itemdescription>Runner shoes</itemdescription>
+  </item>
+  <item>
+    <itemnumber>5ec95b720e17b</itemnumber>
+    <quantityonhold>0</quantityonhold>
+    <quantitysold>0</quantitysold>
+    <itemname>Airpods Pro</itemname>
+    <itemprice>230</itemprice>
+    <itemquantity>60</itemquantity>
+    <itemdescription>Earphones</itemdescription>
+  </item>
+  <item>
+    <itemnumber>5ec95b8be3ae1</itemnumber>
+    <quantityonhold>0</quantityonhold>
+    <quantitysold>0</quantitysold>
+    <itemname>Guitar</itemname>
+    <itemprice>30</itemprice>
+    <itemquantity>100</itemquantity>
+    <itemdescription>Musical Instrument</itemdescription>
+  </item>
+  <item>
+    <itemnumber>5ec95bf493bae</itemnumber>
+    <quantityonhold>0</quantityonhold>
+    <quantitysold>0</quantitysold>
+    <itemname>Kathmandu Jacket</itemname>
+    <itemprice>40</itemprice>
+    <itemquantity>2999</itemquantity>
+    <itemdescription>Winter Protector</itemdescription>
+  </item>
+  <item>
+    <itemnumber>5ec9869597726</itemnumber>
+    <quantityonhold>0</quantityonhold>
+    <quantitysold>0</quantitysold>
+    <itemname>test</itemname>
+    <itemprice>34</itemprice>
+    <itemquantity>56</itemquantity>
+    <itemdescription>test desc</itemdescription>
+  </item>
+</goods>

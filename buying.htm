@@ -1,0 +1,53 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<script type="text/javascript" src="buying.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<style>
+table, th, td {
+border-spacing: 5;
+border-collapse: separate;
+text-align:center;
+
+}
+th, td {
+padding: 5px;
+}
+th{
+background-color:#c5c8d5;
+}
+
+
+#heading{
+text-align:center;
+margin-left: auto;
+margin-right: auto; }
+</style>
+
+</head>
+
+<body onload="displayBooks()">
+<div id = "heading">
+<a href = "customerLogout.php" class = "btn btn-danger" style = "position: absolute; left:1420px; top:33px;"> Log Out </a>
+
+
+<h1 > Shopping Catalog </h1>
+<br>
+
+<table id = "catalogTable" style="margin-left:auto;margin-right:auto">
+</table>
+<br>
+<div id = "shopppingCartDiv">
+
+<h2> Shopping Cart </h2>
+<br>
+<table id="cart" style="margin-left:auto;margin-right:auto" ></table>
+<div id = "cartButtons"></div>
+</div>
+<br> <br>
+<p style="font-size:20px;" id = "msg"></p>
+
+</div>
+</body>
+</html>

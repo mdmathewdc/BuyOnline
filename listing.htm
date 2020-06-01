@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title> Listing </title>
+	<script type="text/javascript" src="listing.js"></script>
+	
+<style>
+	#msg,#heading{
+    text-align:center;
+	margin-left: auto;
+	margin-right: auto; }
+	
+	.btn btn-dark
+	{
+		margin :8px;
+	}
+	
+</style>
+	
+
+
+</head>
+
+<body>
+
+<div id = "heading">
+
+<a href = "listing.htm" class="btn btn-dark"> Listing </a>
+<a href = "processing.htm" class="btn btn-dark"> Processing </a>
+<br> <br>
+<h1> Add New Item </h1>
+<br>
+<table style="margin-left:auto;margin-right:auto">
+		<tr>
+			<td> Item name: </td>
+			<td> <input type = "text" name = "itemname" id = "itemname"> </input> </td>
+		</tr>
+		
+		<tr>
+			<td> Item price: </td>
+			<td> <input type = "text" name = "itemprice" id = "itemprice"> </input> </td>
+		</tr>
+		
+		<tr>
+			<td> Item quantity: </td>
+			<td> <input type = "text" name = "itemquantity" id = "itemquantity"> </input> </td>
+		</tr>
+		
+		<tr>
+			<td> Item description: </td>
+			<td> <input type = "textbox" name = "itemdescription" id = "itemdescription"> </input> </td>
+		</tr>
+
+</table>
+<br>
+			<button class="btn btn-primary" onclick = "checkListing()"> Add item </button> 
+		    <a href = "managerLogout.php" class = "btn btn-danger" style = "position: absolute; left:1420px; top:33px;"> Log Out </a>
+
+<br>
+</div>
+<br> <br>
+<div id = "msg"></div>
+</body>
+
+
+
+
+
+</html>
